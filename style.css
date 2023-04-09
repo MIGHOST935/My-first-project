@@ -16,7 +16,7 @@ header{
     padding-bottom: 200px;
 }
 
-.navigationz{
+.navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -286,10 +286,10 @@ header{
 @media (max-width:578px){
     .join{display: none;}
     .header-title-text{font-size:60px;}
-    .card-info img(max-width: 100%;)
+    .card-info img{max-width: 100%;}
     .navigation-holder{display: none;}
-    .mob-btn{display: inline-block; color: #fff; text-decoration: none; font-size: 60px;}
-    .card-about, .audio-holder{max-width: 100%3;}
+    .mob-btn{display: inline-block; color: #fff; text-decoration: none; font-size: 60px }
+    .card-about, .audio-holder{max-width: 100%;}
     .audio-block img{display: none;}
     .audio-container{padding-right: 42px;}
     .control i {height:42px;}
@@ -297,7 +297,7 @@ header{
 }
 
 .mob-btn{
-    display: none;
+    display: block;
 }
 
 .footer-row{
