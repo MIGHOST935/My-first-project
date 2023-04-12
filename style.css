@@ -212,7 +212,7 @@ header{
     padding-bottom: 20px;
     padding-left: 20px;
 }
-.img-card-1 {background-image: url(/img/card-1.png);}
+.img-card-1 {background-image: url(img/card-1.png);}
 
 .btn-time {
     background-color: #fff;
@@ -258,7 +258,7 @@ header{
     letter-spacing: 0.5px;
 }
 
-.img-card-2{background-image: url(/img/card-2.png);}
+.img-card-2{background-image: url(img/card-2.png);}
 
 @media (max-width:1120px){
     .container{padding: 0 20px;}
